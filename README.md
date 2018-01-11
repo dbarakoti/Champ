@@ -22,3 +22,7 @@ To submit your completed challenge, please perform the following:
   1. Zip up the champ directory into `[YOUR NAME]_champ_challenge.zip`.
   1. Email your zip file or send a download link to `turbo@stukent.com`
 
+
+## dbarakoti-mycomments-not part of the project just for test. 
+added five fictitious posts.
+
