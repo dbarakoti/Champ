@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
-
+<div class="container">
+<h2> Posts show page:<h2>
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
@@ -15,5 +16,6 @@
   <%= @post.published %>
 </p>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<button class="btn"><%= link_to 'Edit', edit_post_path(@post) %></button> |
+<button class="btn"><%= link_to 'Back', posts_path %></button>
+</div>

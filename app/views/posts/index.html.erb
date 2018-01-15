@@ -1,9 +1,14 @@
+
+
 <p id="notice"><%= notice %></p>
 
 <h1>Posts</h1>
 
+<br>
+
 <table>
   <thead>
+  
     <tr>
       <th>Title</th>
       <th>Body</th>
@@ -18,14 +23,15 @@
         <td><%= post.title %></td>
         <td><%= post.body %></td>
         <td><%= post.published %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      
+        <td><button class="btn"><%= link_to 'Show', post %></button></td>
+        <td><button class="btn"><%= link_to 'Edit', edit_post_path(post) %></button></td>
+        <td><button class="btn"><%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
+      
       </tr>
     <% end %>
   </tbody>
 </table>
-
 <br>
 
 <%= link_to 'New Post', new_post_path %>
