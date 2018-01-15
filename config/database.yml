@@ -10,6 +10,8 @@ default: &default
   timeout: 5000
 
 development:
+  <<: *default
+  database: db_development
 
 test:
   <<: *default
@@ -18,3 +20,5 @@ test:
 production:
   <<: *default
   database: db_production
+
+
