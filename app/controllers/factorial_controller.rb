@@ -1,0 +1,1 @@
+class FactorialController < ApplicationController

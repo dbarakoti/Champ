@@ -5,6 +5,10 @@
   <strong>Title:</strong>
   <%= @post.title %>
 </p>
+<p>
+  <strong>Factorial:</strong>
+  <%= @post.factorial %>
+</p>
 
 <p>
   <strong>Body:</strong>
@@ -20,7 +24,4 @@
 <button class="btn"><%= link_to 'Edit', edit_post_path(@post) %></button> |
 <button class="btn"><%= link_to 'Back', posts_path %></button>
 </div>
-=======
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
 
